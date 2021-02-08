@@ -1,0 +1,14 @@
+server:
+  application:
+    name: InjectMapFromYAML
+    url: http://injectmapfromyaml.dev
+    description: How To Inject a map from a YAML File in Spring Boot
+
+config:
+  globalRegistry: https://registry.localdomain
+ 
+  clusters:
+    - name: cluster alpha
+      url: https://console-clusterl.localdomain
+    - name: cluster bravo
+      url: https://console-cluster2.localdomain

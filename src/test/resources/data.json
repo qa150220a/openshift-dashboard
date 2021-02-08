@@ -1,0 +1,284 @@
+[
+    {
+      "namespace": "17653",
+      "name": "situation-manager",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-manager:11.0.0.0.40",
+      "imageVersion": "(G)11.0.0.0.40!17494"
+    },
+    {
+      "namespace": "17654",
+      "name": "situation-manager",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-manager:11.0.0.0.40",
+      "imageVersion": "(G)11.0.0.0.40!17494"
+    },
+    {
+      "namespace": "17494",
+      "name": "situation-manager",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-manager@sha256:943c5b0af7cdeabedb5b1243e89eff3fd23a0157a83dc2a191a12ef8da84bb74",
+      "imageVersion": "(L)11.0.0.0.370-SNAPSHOT"
+    },
+    {
+      "namespace": "13938",
+      "name": "restriction-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    {
+      "namespace": "14527",
+      "name": "restriction-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13938"
+    },
+    {
+      "namespace": "16785",
+      "name": "research-reader",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/16784/research-reader:10.2.0.0.83-SNAPSHOT",
+      "imageVersion": "(G)10.2.0.0.83-SNAPSHOT!16784"
+    },
+    {
+      "namespace": "17196",
+      "name": "research-reader",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/16784/research-reader:10.2.0.0.71-SNAPSHOT",
+      "imageVersion": "(G)10.2.0.0.71-SNAPSHOT!16784"
+    },
+    {
+      "namespace": "16784",
+      "name": "research-reader",
+      "replicas": 0,
+      "image": "172.17.99.126:5000/16784/research-reader@sha256:082a7979c377d78832a36a1454479c2cc1b48331ced13a7fbe7e26a2eed319de",
+      "imageVersion": "(L)10.2.0.0.83-SNAPSHOT"
+    },
+    {
+      "namespace": "17653",
+      "name": "situation-post-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-post-processor:11.0.0.0.9",
+      "imageVersion": "(G)11.0.0.0.9!17494"
+    },
+    {
+      "namespace": "17654",
+      "name": "situation-post-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-post-processor:11.0.0.0.9",
+      "imageVersion": "(G)11.0.0.0.9!17494"
+    },
+    {
+      "namespace": "17494",
+      "name": "situation-post-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-post-processor@sha256:faa1c5b3f94ac2afac884a9f6b03fa1bfd9b09d5056686df46ecc76e15102078",
+      "imageVersion": "(L)11.0.0.0.196-SNAPSHOT"
+    },
+    {
+      "namespace": "13938",
+      "name": "restriction-distribution",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    {
+      "namespace": "14527",
+      "name": "restriction-distribution",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13938"
+    },
+    {
+      "namespace": "13298",
+      "name": "ebtqj",
+      "replicas": 0,
+      "image": "ebtqj",
+      "imageVersion": "ebtqj"
+    },
+    {
+      "namespace": "13938",
+      "name": "restriction-processor",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-processor:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    {
+      "namespace": "14527",
+      "name": "restriction-processor",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-processor:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13938"
+    },
+    {
+      "namespace": "17653",
+      "name": "situation-email-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-email-processor:11.0.0.0.17",
+      "imageVersion": "(G)11.0.0.0.17!17494"
+    },
+    {
+      "namespace": "17654",
+      "name": "situation-email-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-email-processor:11.0.0.0.17",
+      "imageVersion": "(G)11.0.0.0.17!17494"
+    },
+    {
+      "namespace": "17494",
+      "name": "situation-email-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-email-processor@sha256:8a854dea995486a37557909b9f0ae093e741593a8df09649ada596cca3d40814",
+      "imageVersion": "(L)11.0.0.0.219-SNAPSHOT"
+    },
+    {
+      "namespace": "13939",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-springboot-admin:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    {
+      "namespace": "14526",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-springboot-admin:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    {
+      "namespace": "14012",
+      "name": "esm-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14012/esm-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    {
+      "namespace": "14602",
+      "name": "esm-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14012/esm-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!14012"
+    },
+    {
+      "namespace": "13939",
+      "name": "cbk-zipkin-server",
+      "replicas": 0,
+      "image": "172.17.99.126:5000/13939/cbk-zipkin-server@sha256:27e80da09f7d34a549a136657d24d1e7c51b86a375e59752c8ea8d7f4601f53c",
+      "imageVersion": "(L)1.0.1-SNAPSHOT"
+    },
+    {
+      "namespace": "14526",
+      "name": "cbk-zipkin-server",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-zipkin-server:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    {
+      "namespace": "13939",
+      "name": "cbk-api-gateway",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-api-gateway:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    {
+      "namespace": "14526",
+      "name": "cbk-api-gateway",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-api-gateway:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    {
+      "namespace": "17653",
+      "name": "counterparty-search",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/17494/counterparty-search:1.0.0.0.7-SNAPSHOT",
+      "imageVersion": "(G)1.0.0.0.7-SNAPSHOT!17494"
+    },
+    {
+      "namespace": "17654",
+      "name": "counterparty-search",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/17494/counterparty-search:1.0.0.0.1",
+      "imageVersion": "(G)1.0.0.0.1!17494"
+    },
+    {
+      "namespace": "17494",
+      "name": "counterparty-search",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/counterparty-search@sha256:016cd890101ac3451b27c744e336f45f6ba252441d4ab0f4e2234c1eb0fbd83c",
+      "imageVersion": "(L)1.0.0.0.17-SNAPSHOT"
+    },
+    {
+      "namespace": "17653",
+      "name": "situation-data-provider",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-provider:11.0.0.0.37",
+      "imageVersion": "(G)11.0.0.0.37!17494"
+    },
+    {
+      "namespace": "17654",
+      "name": "situation-data-provider",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-provider:11.0.0.0.37",
+      "imageVersion": "(G)11.0.0.0.37!17494"
+    },
+    {
+      "namespace": "17494",
+      "name": "situation-data-provider",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-data-provider@sha256:e44a1d6117e76d81ca3a293d85682f5e47fedbf0549fcec9ba219eebf19cc94d",
+      "imageVersion": "(L)11.0.0.0.317-SNAPSHOT"
+    },
+    {
+      "namespace": "14608",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14606/restricted-list:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!14606"
+    },
+    {
+      "namespace": "14606",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14606/restricted-list:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    {
+      "namespace": "17653",
+      "name": "situation-data-updater",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-updater:11.0.0.0.35",
+      "imageVersion": "(G)11.0.0.0.35!17494"
+    },
+    {
+      "namespace": "17654",
+      "name": "situation-data-updater",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-updater:11.0.0.0.35",
+      "imageVersion": "(G)11.0.0.0.35!17494"
+    },
+    {
+      "namespace": "17494",
+      "name": "situation-data-updater",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-data-updater@sha256:7964a1c3f67a9b19782769430977be7e6721a99a8de5f01283c86edc8f3d1ef1",
+      "imageVersion": "(L)11.0.0.0.219-SNAPSHOT"
+    }
+]

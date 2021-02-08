@@ -1,0 +1,13 @@
+server:
+  application:
+    name: aPaaS Dashboard
+    url: https://<TBD>
+    description: Disclosing current mess on Open Shift platform
+
+# Enable The Actuator Probe Endpoints    
+management:
+  endpoint:
+    health.probes.enabled: true
+  health:
+    livenessState.enabled: true
+    readinessState.enabled: true    

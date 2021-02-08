@@ -1,0 +1,77 @@
+---
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: dashboard-ds-config
+data:
+  # property-like keys; each key maps to a simple value
+  application.yaml: |-
+    config:
+      globalRegistry: https://registry.localdomain
+      clusters:
+        - name: cluster alpha
+          url: https://console-cluster-one.localdomain
+        - name: cluster bravo
+          url: https://console-cluster-two.localdomain
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: dashboard-ds
+  labels:
+    app: dashboard-ds
+spec:
+  type: ClusterIP
+  ports:
+    - name: backend
+      port: 80
+      protocol: TCP
+      targetPort: 8080
+  selector:
+    app: dashboard-ds
+
+---
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: dashboard-ds
+  labels:
+    app: dashboard-ds
+spec:
+  strategy:
+    type: Recreate
+  selector:
+    matchLabels:
+      app: dashboard-ds
+  template:
+    metadata:
+      labels:
+        app: dashboard-ds
+    spec:
+      containers:
+      - name: dashboard-ds
+        image: 127.0.0.1:30400/dashboard-ds:$BUILD_TAG
+        imagePullPolicy: Always
+#        envFrom:
+#        - configMapRef:
+#            name: dashboard-ds
+        ports:
+        - containerPort: 8080
+          name: dashboard-ds
+        readinessProbe:
+          httpGet:
+            port: 8080
+            path: /actuator/health/readiness
+        livenessProbe:
+          httpGet:
+            port: 8080
+            path: /actuator/health/liveness                      
+        volumeMounts:
+        - mountPath: /config
+          name: config-volume
+      volumes:
+      - configMap:
+          name: dashboard-ds-config
+        name: config-volume
+          

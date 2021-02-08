@@ -1,0 +1,976 @@
+{
+  "cbanker-external-app-stub": {
+    "1187": {
+      "cluster": "gl-np",
+      "namespace": "1187",
+      "projectDisplayName": "1187-CBANKER-DEV",
+      "name": "cbanker-external-app-stub",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/1187/cbanker-external-app-stub@sha256:1aff32b6a108c7ff9af9a705d5103e7485c74f8df8f228b2ecc24efa476d7782",
+      "imageVersion": "172.17.150.40:5000/1187/cbanker-external-app-stub@sha256:1aff32b6a108c7ff9af9a705d5103e7485c74f8df8f228b2ecc24efa476d7782"
+    }
+  },
+  "research-reader": {
+    "16785": {
+      "cluster": "gl-np2",
+      "namespace": "16785",
+      "projectDisplayName": "16785-CBK-RRT-SIT-SATURN",
+      "name": "research-reader",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/16784/research-reader:10.2.0.0.83-SNAPSHOT",
+      "imageVersion": "(G)10.2.0.0.83-SNAPSHOT!16784"
+    },
+    "17196": {
+      "cluster": "gl-np2",
+      "namespace": "17196",
+      "projectDisplayName": "17196-CBK-RRT-UAT-PANDA",
+      "name": "research-reader",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/16784/research-reader:10.2.0.0.71-SNAPSHOT",
+      "imageVersion": "(G)10.2.0.0.71-SNAPSHOT!16784"
+    },
+    "16784": {
+      "cluster": "gl-np2",
+      "namespace": "16784",
+      "projectDisplayName": "16784-CBK-RRT-DEV-VENUS",
+      "name": "research-reader",
+      "replicas": 0,
+      "image": "172.17.99.126:5000/16784/research-reader@sha256:082a7979c377d78832a36a1454479c2cc1b48331ced13a7fbe7e26a2eed319de",
+      "imageVersion": "(L)10.2.0.0.83-SNAPSHOT"
+    }
+  },
+  "dummy-application": {
+    "13836": {
+      "cluster": "gl-np",
+      "namespace": "13836",
+      "projectDisplayName": "13836-CBK-DEVOPS-SANDBOX",
+      "name": "dummy-application",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13836/dummy-application@sha256:3963be4376834b42293a698208ed8f67c7c4c4a7d594b5442223276c279b3853",
+      "imageVersion": "(L)1.0.0.0.18-SNAPSHOT"
+    }
+  },
+  "admin-portal": {
+    "14607": {
+      "cluster": "gl-np",
+      "namespace": "14607",
+      "projectDisplayName": "14607-CBK-RL-SIT-SATURN",
+      "name": "admin-portal",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14606/admin-portal:10.3.1.0.8",
+      "imageVersion": "(G)10.3.1.0.8!14606"
+    },
+    "14608": {
+      "cluster": "gl-np",
+      "namespace": "14608",
+      "projectDisplayName": "14608-CBK-RL-UAT-PANDA",
+      "name": "admin-portal",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/14606/admin-portal:10.7.0.0.1",
+      "imageVersion": "(G)10.7.0.0.1!14606"
+    },
+    "14606": {
+      "cluster": "gl-np",
+      "namespace": "14606",
+      "projectDisplayName": "14606-CBK-RL-DEV-VENUS",
+      "name": "admin-portal",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.150.40:5000/14606/admin-portal@sha256:d471b50347a15838fbea3bc84475305302480dfebd3d9755b12f324d14019816",
+      "imageVersion": "(L)10.7.0.0.2"
+    },
+    "14791": {
+      "cluster": "gl-np",
+      "namespace": "14791",
+      "projectDisplayName": "14791-CBK-RL-SIT-JUPITER",
+      "name": "admin-portal",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    },
+    "14789": {
+      "cluster": "gl-np",
+      "namespace": "14789",
+      "projectDisplayName": "14789-CBK-RL-UAT-POSSUM",
+      "name": "admin-portal",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    }
+  },
+  "restriction-processor": {
+    "14482": {
+      "cluster": "gl-np",
+      "namespace": "14482",
+      "projectDisplayName": "14482-CBK-RS-SIT-JUPITER",
+      "name": "restriction-processor",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-processor:9.4.1.0.3",
+      "imageVersion": "(G)9.4.1.0.3!13938"
+    },
+    "13396": {
+      "cluster": "gl-np",
+      "namespace": "13396",
+      "projectDisplayName": "13396-CBANKER-RESTRICTION-SERVICE-VENUS",
+      "name": "restriction-processor",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13396/restriction-processor@sha256:2a07e364aa05b6d3e759de1fba14ddea254da0d84b5cb154fadb5a6b34bf9024",
+      "imageVersion": "(L)0.0.1.18607.16-SNAPSHOT"
+    },
+    "13938": {
+      "cluster": "gl-np2",
+      "namespace": "13938",
+      "projectDisplayName": "13938-CBK-RS-DEV-VENUS",
+      "name": "restriction-processor",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-processor:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    "13940": {
+      "cluster": "gl-np",
+      "namespace": "13940",
+      "projectDisplayName": "13940-CBK-RS-SIT-SATURN",
+      "name": "restriction-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-processor:10.7.0.21806.50-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.21806.50-SNAPSHOT!13938"
+    },
+    "14787": {
+      "cluster": "gl-np",
+      "namespace": "14787",
+      "projectDisplayName": "14787-CBK-RS-UAT-POSSUM",
+      "name": "restriction-processor",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-processor:10.7.0.22054.52-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.22054.52-SNAPSHOT!13938"
+    },
+    "14527": {
+      "cluster": "gl-np2",
+      "namespace": "14527",
+      "projectDisplayName": "14527-CBK-RS-UAT-PANDA",
+      "name": "restriction-processor",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-processor:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13938"
+    }
+  },
+  "cbk-appdynamics-test": {
+    "13836": {
+      "cluster": "gl-np",
+      "namespace": "13836",
+      "projectDisplayName": "13836-CBK-DEVOPS-SANDBOX",
+      "name": "cbk-appdynamics-test",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13836/cbk-appdynamics-test@sha256:5bd7afb4736d0e001548ab364dd5d76db3bb07ebe549f3ee014c9ddcc09895a4",
+      "imageVersion": "172.17.150.40:5000/13836/cbk-appdynamics-test@sha256:5bd7afb4736d0e001548ab364dd5d76db3bb07ebe549f3ee014c9ddcc09895a4"
+    }
+  },
+  "cbk-springboot-admin": {
+    "13836": {
+      "cluster": "gl-np",
+      "namespace": "13836",
+      "projectDisplayName": "13836-CBK-DEVOPS-SANDBOX",
+      "name": "cbk-springboot-admin",
+      "replicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/13395/cbk-springboot-admin:1.0.0.0.15-SNAPSHOT",
+      "imageVersion": "(G)1.0.0.0.15-SNAPSHOT!13395"
+    },
+    "13395": {
+      "cluster": "gl-np",
+      "namespace": "13395",
+      "projectDisplayName": "13395-CBANKER-COMMON-VENUS",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13395/cbk-springboot-admin@sha256:4915003832056d54c7e7d59d25230d587727304485d4071c48fa68f930b8bf02",
+      "imageVersion": "(L)1.0.0.19652.22-SNAPSHOT"
+    },
+    "13939": {
+      "cluster": "gl-np2",
+      "namespace": "13939",
+      "projectDisplayName": "13939-CBK-COMMON-DEV-VENUS",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-springboot-admin:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    "14484": {
+      "cluster": "gl-np",
+      "namespace": "14484",
+      "projectDisplayName": "14484-CBK-CC-SIT-JUPITER",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-springboot-admin:9.2.0.0.1",
+      "imageVersion": "(G)9.2.0.0.1!13941"
+    },
+    "14786": {
+      "cluster": "gl-np",
+      "namespace": "14786",
+      "projectDisplayName": "14786-CBK-CC-UAT-POSSUM",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    },
+    "14526": {
+      "cluster": "gl-np2",
+      "namespace": "14526",
+      "projectDisplayName": "14526-CBK-CC-UAT-PANDA",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-springboot-admin:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    "13941": {
+      "cluster": "gl-np",
+      "namespace": "13941",
+      "projectDisplayName": "13941-CBK-COMMON-SIT-SATURN",
+      "name": "cbk-springboot-admin",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-springboot-admin:9.6.0.0.2-SNAPSHOT",
+      "imageVersion": "(G)9.6.0.0.2-SNAPSHOT"
+    }
+  },
+  "esm-service": {
+    "14790": {
+      "cluster": "gl-np",
+      "namespace": "14790",
+      "projectDisplayName": "14790-CBK-ESM-SIT-JUPITER",
+      "name": "esm-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14012/esm-service:9.4.0.0.14-SNAPSHOT",
+      "imageVersion": "(G)9.4.0.0.14-SNAPSHOT!14012"
+    },
+    "14012": {
+      "cluster": "gl-np2",
+      "namespace": "14012",
+      "projectDisplayName": "14012-CBK-ESM-SERVICE-DEV-VENUS",
+      "name": "esm-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14012/esm-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    "14013": {
+      "cluster": "gl-np",
+      "namespace": "14013",
+      "projectDisplayName": "14013-CBK-ESM-SERVICE-SIT",
+      "name": "esm-service",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/14012/esm-service:10.7.0.0.17-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.0.17-SNAPSHOT!14012"
+    },
+    "1187": {
+      "cluster": "gl-np",
+      "namespace": "1187",
+      "projectDisplayName": "1187-CBANKER-DEV",
+      "name": "esm-service",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/1187/esm-service@sha256:adbdd5dc8b02bcebcd4335a6a8a9e0d7ac3e08db709ab9b9c97ebf61d6fbd301",
+      "imageVersion": "(L)8.7.0.18248.64-SNAPSHOT"
+    },
+    "14788": {
+      "cluster": "gl-np",
+      "namespace": "14788",
+      "projectDisplayName": "14788-CBK-ESM-UAT-POSSUM",
+      "name": "esm-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14012/esm-service:10.7.0.22054.125-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.22054.125-SNAPSHOT!14012"
+    },
+    "14602": {
+      "cluster": "gl-np2",
+      "namespace": "14602",
+      "projectDisplayName": "14602-CBK-ESM-UAT-PANDA",
+      "name": "esm-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14012/esm-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!14012"
+    }
+  },
+  "issuer-service": {
+    "14790": {
+      "cluster": "gl-np",
+      "namespace": "14790",
+      "projectDisplayName": "14790-CBK-ESM-SIT-JUPITER",
+      "name": "issuer-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    },
+    "14012": {
+      "cluster": "gl-np",
+      "namespace": "14012",
+      "projectDisplayName": "14012-CBK-ESM-SERVICE-DEV-VENUS",
+      "name": "issuer-service",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.150.40:5000/14012/issuer-service@sha256:c31e1ecb8413bc55166262de16d9b743aefed5928dfd44b7749736f63ea442f3",
+      "imageVersion": "(L)10.4.0.0.40-SNAPSHOT"
+    },
+    "14013": {
+      "cluster": "gl-np",
+      "namespace": "14013",
+      "projectDisplayName": "14013-CBK-ESM-SERVICE-SIT",
+      "name": "issuer-service",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/14012/issuer-service:11.0.0.0.3",
+      "imageVersion": "(G)11.0.0.0.3!14012"
+    },
+    "14788": {
+      "cluster": "gl-np",
+      "namespace": "14788",
+      "projectDisplayName": "14788-CBK-ESM-UAT-POSSUM",
+      "name": "issuer-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    },
+    "14602": {
+      "cluster": "gl-np",
+      "namespace": "14602",
+      "projectDisplayName": "14602-CBK-ESM-UAT-PANDA",
+      "name": "issuer-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    }
+  },
+  "gradle-s2i-test": {
+    "11578": {
+      "cluster": "gl-np",
+      "namespace": "11578",
+      "projectDisplayName": "11578-CBANKER-SANDBOX",
+      "name": "gradle-s2i-test",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/11578/gradle-s2i-builder@sha256:1fc122d361b0970fc4fcd057daea120a3ea3090c981e115c4332b5888a295393",
+      "imageVersion": "172.17.150.40:5000/11578/gradle-s2i-builder@sha256:1fc122d361b0970fc4fcd057daea120a3ea3090c981e115c4332b5888a295393"
+    }
+  },
+  "logstash-test": {
+    "13395": {
+      "cluster": "gl-np",
+      "namespace": "13395",
+      "projectDisplayName": "13395-CBANKER-COMMON-VENUS",
+      "name": "logstash-test",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13395/logstash-test@sha256:2d9707443a92851ee40d55726e528bf1aa3f1e1a1a813c62f81962f0e03e7cd8",
+      "imageVersion": "(L)1.0.0-SNAPSHOT"
+    }
+  },
+  "cbk-api-gateway": {
+    "13395": {
+      "cluster": "gl-np",
+      "namespace": "13395",
+      "projectDisplayName": "13395-CBANKER-COMMON-VENUS",
+      "name": "cbk-api-gateway",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13395/cbk-api-gateway@sha256:2f8c120baaba62ece17039b8e627882ab27e0ff666e2ea83834e5d019f6d1770",
+      "imageVersion": "(L)1.0.0.0.49-SNAPSHOT"
+    },
+    "13939": {
+      "cluster": "gl-np2",
+      "namespace": "13939",
+      "projectDisplayName": "13939-CBK-COMMON-DEV-VENUS",
+      "name": "cbk-api-gateway",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-api-gateway:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    "14484": {
+      "cluster": "gl-np",
+      "namespace": "14484",
+      "projectDisplayName": "14484-CBK-CC-SIT-JUPITER",
+      "name": "cbk-api-gateway",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-api-gateway:9.2.0.0.42-SNAPSHOT",
+      "imageVersion": "(G)9.2.0.0.42-SNAPSHOT!13941"
+    },
+    "14786": {
+      "cluster": "gl-np",
+      "namespace": "14786",
+      "projectDisplayName": "14786-CBK-CC-UAT-POSSUM",
+      "name": "cbk-api-gateway",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    },
+    "14526": {
+      "cluster": "gl-np2",
+      "namespace": "14526",
+      "projectDisplayName": "14526-CBK-CC-UAT-PANDA",
+      "name": "cbk-api-gateway",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-api-gateway:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    "13941": {
+      "cluster": "gl-np",
+      "namespace": "13941",
+      "projectDisplayName": "13941-CBK-COMMON-SIT-SATURN",
+      "name": "cbk-api-gateway",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-api-gateway:10.9.0.0.2",
+      "imageVersion": "(G)10.9.0.0.2"
+    }
+  },
+  "counterparty-search": {
+    "17653": {
+      "cluster": "gl-np2",
+      "namespace": "17653",
+      "projectDisplayName": "17653-CBK-SS-SIT-SATURN",
+      "name": "counterparty-search",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/17494/counterparty-search:1.0.0.0.7-SNAPSHOT",
+      "imageVersion": "(G)1.0.0.0.7-SNAPSHOT!17494"
+    },
+    "17654": {
+      "cluster": "gl-np2",
+      "namespace": "17654",
+      "projectDisplayName": "17654-CBK-SS-UAT-PANDA",
+      "name": "counterparty-search",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/17494/counterparty-search:1.0.0.0.1",
+      "imageVersion": "(G)1.0.0.0.1!17494"
+    },
+    "17494": {
+      "cluster": "gl-np2",
+      "namespace": "17494",
+      "projectDisplayName": "17494-CBK-SS-DEV-VENUS",
+      "name": "counterparty-search",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/counterparty-search@sha256:016cd890101ac3451b27c744e336f45f6ba252441d4ab0f4e2234c1eb0fbd83c",
+      "imageVersion": "(L)1.0.0.0.17-SNAPSHOT"
+    }
+  },
+  "cbanker-mock-service": {
+    "12585": {
+      "cluster": "gl-np",
+      "namespace": "12585",
+      "projectDisplayName": "12585-TEST",
+      "name": "cbanker-mock-service",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/12585/cbanker-mock-service@sha256:b8605b5ed722119fa3a98bd28bd9b5163067f90ffb8446a5864d38d54d8300ee",
+      "imageVersion": "172.17.150.40:5000/12585/cbanker-mock-service@sha256:b8605b5ed722119fa3a98bd28bd9b5163067f90ffb8446a5864d38d54d8300ee"
+    }
+  },
+  "restriction-publisher": {
+    "13396": {
+      "cluster": "gl-np",
+      "namespace": "13396",
+      "projectDisplayName": "13396-CBANKER-RESTRICTION-SERVICE-VENUS",
+      "name": "restriction-publisher",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13396/restriction-publisher@sha256:b0eb9f382b58d2eca4f659c869d6dab06559050637d3bc6baff6eb1159d2c5da",
+      "imageVersion": "(L)0.0.1.18607.37-SNAPSHOT"
+    }
+  },
+  "tomcat7-java-8": {
+    "13836": {
+      "cluster": "gl-np",
+      "namespace": "13836",
+      "projectDisplayName": "13836-CBK-DEVOPS-SANDBOX",
+      "name": "tomcat7-java-8",
+      "replicas": 0,
+      "image": "tomcat7-java-8",
+      "imageVersion": "tomcat7-java-8"
+    }
+  },
+  "situation-manager": {
+    "17653": {
+      "cluster": "gl-np2",
+      "namespace": "17653",
+      "projectDisplayName": "17653-CBK-SS-SIT-SATURN",
+      "name": "situation-manager",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-manager:11.0.0.0.370-SNAPSHOT",
+      "imageVersion": "(G)11.0.0.0.370-SNAPSHOT!17494"
+    },
+    "17654": {
+      "cluster": "gl-np2",
+      "namespace": "17654",
+      "projectDisplayName": "17654-CBK-SS-UAT-PANDA",
+      "name": "situation-manager",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-manager:11.0.0.0.40",
+      "imageVersion": "(G)11.0.0.0.40!17494"
+    },
+    "17494": {
+      "cluster": "gl-np2",
+      "namespace": "17494",
+      "projectDisplayName": "17494-CBK-SS-DEV-VENUS",
+      "name": "situation-manager",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-manager@sha256:2957a519e326c0f4e58c573234af92657f1943ee48604a5dda8b8bea38d5dc89",
+      "imageVersion": "(L)11.0.0.0.371-SNAPSHOT"
+    }
+  },
+  "restriction-service": {
+    "14482": {
+      "cluster": "gl-np",
+      "namespace": "14482",
+      "projectDisplayName": "14482-CBK-RS-SIT-JUPITER",
+      "name": "restriction-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-service:9.4.1.0.3",
+      "imageVersion": "(G)9.4.1.0.3!13938"
+    },
+    "13396": {
+      "cluster": "gl-np",
+      "namespace": "13396",
+      "projectDisplayName": "13396-CBANKER-RESTRICTION-SERVICE-VENUS",
+      "name": "restriction-service",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13396/restriction-service@sha256:f7c89687d57207c488decf0670330fd5753fa0480dac46327b8ca1969ad09b9b",
+      "imageVersion": "(L)0.0.1.18607.69-SNAPSHOT"
+    },
+    "13938": {
+      "cluster": "gl-np2",
+      "namespace": "13938",
+      "projectDisplayName": "13938-CBK-RS-DEV-VENUS",
+      "name": "restriction-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    "13940": {
+      "cluster": "gl-np",
+      "namespace": "13940",
+      "projectDisplayName": "13940-CBK-RS-SIT-SATURN",
+      "name": "restriction-service",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-service:10.7.0.21806.292-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.21806.292-SNAPSHOT!13938"
+    },
+    "14787": {
+      "cluster": "gl-np",
+      "namespace": "14787",
+      "projectDisplayName": "14787-CBK-RS-UAT-POSSUM",
+      "name": "restriction-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-service:10.7.0.22054.295-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.22054.295-SNAPSHOT!13938"
+    },
+    "14527": {
+      "cluster": "gl-np2",
+      "namespace": "14527",
+      "projectDisplayName": "14527-CBK-RS-UAT-PANDA",
+      "name": "restriction-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-service:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13938"
+    }
+  },
+  "esm-mock": {
+    "12585": {
+      "cluster": "gl-np",
+      "namespace": "12585",
+      "projectDisplayName": "12585-TEST",
+      "name": "esm-mock",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/12585/cbanker-mock-service@sha256:b8605b5ed722119fa3a98bd28bd9b5163067f90ffb8446a5864d38d54d8300ee",
+      "imageVersion": "172.17.150.40:5000/12585/cbanker-mock-service@sha256:b8605b5ed722119fa3a98bd28bd9b5163067f90ffb8446a5864d38d54d8300ee"
+    }
+  },
+  "situation-post-processor": {
+    "17653": {
+      "cluster": "gl-np2",
+      "namespace": "17653",
+      "projectDisplayName": "17653-CBK-SS-SIT-SATURN",
+      "name": "situation-post-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-post-processor:11.0.0.0.196-SNAPSHOT",
+      "imageVersion": "(G)11.0.0.0.196-SNAPSHOT!17494"
+    },
+    "17654": {
+      "cluster": "gl-np2",
+      "namespace": "17654",
+      "projectDisplayName": "17654-CBK-SS-UAT-PANDA",
+      "name": "situation-post-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-post-processor:11.0.0.0.9",
+      "imageVersion": "(G)11.0.0.0.9!17494"
+    },
+    "17494": {
+      "cluster": "gl-np2",
+      "namespace": "17494",
+      "projectDisplayName": "17494-CBK-SS-DEV-VENUS",
+      "name": "situation-post-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-post-processor@sha256:faa1c5b3f94ac2afac884a9f6b03fa1bfd9b09d5056686df46ecc76e15102078",
+      "imageVersion": "(L)11.0.0.0.196-SNAPSHOT"
+    }
+  },
+  "spring-boot-admin-server": {
+    "11578": {
+      "cluster": "gl-np",
+      "namespace": "11578",
+      "projectDisplayName": "11578-CBANKER-SANDBOX",
+      "name": "spring-boot-admin-server",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/11578/spring-boot-admin-server@sha256:0da5f39960cc1d59471e370f829e7ae37f8a6556afe274743ef13dcea88e9268",
+      "imageVersion": "172.17.150.40:5000/11578/spring-boot-admin-server@sha256:0da5f39960cc1d59471e370f829e7ae37f8a6556afe274743ef13dcea88e9268"
+    }
+  },
+  "restriction-distribution": {
+    "14482": {
+      "cluster": "gl-np",
+      "namespace": "14482",
+      "projectDisplayName": "14482-CBK-RS-SIT-JUPITER",
+      "name": "restriction-distribution",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:9.6.0.0.11-SNAPSHOT",
+      "imageVersion": "(G)9.6.0.0.11-SNAPSHOT!13938"
+    },
+    "13836": {
+      "cluster": "gl-np",
+      "namespace": "13836",
+      "projectDisplayName": "13836-CBK-DEVOPS-SANDBOX",
+      "name": "restriction-distribution",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:9.0.0.0.382-SNAPSHOT",
+      "imageVersion": "(G)9.0.0.0.382-SNAPSHOT!13938"
+    },
+    "13938": {
+      "cluster": "gl-np2",
+      "namespace": "13938",
+      "projectDisplayName": "13938-CBK-RS-DEV-VENUS",
+      "name": "restriction-distribution",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    "13940": {
+      "cluster": "gl-np",
+      "namespace": "13940",
+      "projectDisplayName": "13940-CBK-RS-SIT-SATURN",
+      "name": "restriction-distribution",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:10.7.0.21806.46-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.21806.46-SNAPSHOT!13938"
+    },
+    "14787": {
+      "cluster": "gl-np",
+      "namespace": "14787",
+      "projectDisplayName": "14787-CBK-RS-UAT-POSSUM",
+      "name": "restriction-distribution",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:10.7.0.22054.47-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.22054.47-SNAPSHOT!13938"
+    },
+    "14527": {
+      "cluster": "gl-np2",
+      "namespace": "14527",
+      "projectDisplayName": "14527-CBK-RS-UAT-PANDA",
+      "name": "restriction-distribution",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13938/restriction-distribution:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13938"
+    }
+  },
+  "email-processing": {
+    "1187": {
+      "cluster": "gl-np",
+      "namespace": "1187",
+      "projectDisplayName": "1187-CBANKER-DEV",
+      "name": "email-processing",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/1187/email-processing@sha256:904cf139fae6063ed65a762195e2cfc6d41fb2d34fe4d241113c1f32d2fe20dc",
+      "imageVersion": "172.17.150.40:5000/1187/email-processing@sha256:904cf139fae6063ed65a762195e2cfc6d41fb2d34fe4d241113c1f32d2fe20dc"
+    }
+  },
+  "ebtqj": {
+    "13298": {
+      "cluster": "gl-np2",
+      "namespace": "13298",
+      "projectDisplayName": "13298-CBK DEV",
+      "name": "ebtqj",
+      "replicas": 0,
+      "image": "ebtqj",
+      "imageVersion": "ebtqj"
+    }
+  },
+  "cbk-config-service": {
+    "13395": {
+      "cluster": "gl-np",
+      "namespace": "13395",
+      "projectDisplayName": "13395-CBANKER-COMMON-VENUS",
+      "name": "cbk-config-service",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13395/cbk-config-service@sha256:adac6007d62d4e2e7c86e691d4ddd12479e071bb46e4b3d1b8c37d086fc0af8e",
+      "imageVersion": "(L)1.0.0.0.17-SNAPSHOT"
+    },
+    "13939": {
+      "cluster": "gl-np",
+      "namespace": "13939",
+      "projectDisplayName": "13939-CBK-COMMON-DEV-VENUS",
+      "name": "cbk-config-service",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13939/cbk-config-service@sha256:4bc8de35e5e0dd48a73d93788f34ab6435cef4737c7880c0b2341ca25229c5b6",
+      "imageVersion": "(L)1.0.0.0.18-SNAPSHOT"
+    },
+    "13941": {
+      "cluster": "gl-np",
+      "namespace": "13941",
+      "projectDisplayName": "13941-CBK-COMMON-SIT-SATURN",
+      "name": "cbk-config-service",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13395/cbk-config-service:1.0.0.0.16-SNAPSHOT",
+      "imageVersion": "(G)1.0.0.0.16-SNAPSHOT!13395"
+    }
+  },
+  "tomcat8-java8": {
+    "13836": {
+      "cluster": "gl-np",
+      "namespace": "13836",
+      "projectDisplayName": "13836-CBK-DEVOPS-SANDBOX",
+      "name": "tomcat8-java8",
+      "replicas": 0,
+      "image": "tomcat8-java8",
+      "imageVersion": "tomcat8-java8"
+    }
+  },
+  "situation-email-processor": {
+    "17653": {
+      "cluster": "gl-np2",
+      "namespace": "17653",
+      "projectDisplayName": "17653-CBK-SS-SIT-SATURN",
+      "name": "situation-email-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-email-processor:11.0.0.0.219-SNAPSHOT",
+      "imageVersion": "(G)11.0.0.0.219-SNAPSHOT!17494"
+    },
+    "17654": {
+      "cluster": "gl-np2",
+      "namespace": "17654",
+      "projectDisplayName": "17654-CBK-SS-UAT-PANDA",
+      "name": "situation-email-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-email-processor:11.0.0.0.17",
+      "imageVersion": "(G)11.0.0.0.17!17494"
+    },
+    "17494": {
+      "cluster": "gl-np2",
+      "namespace": "17494",
+      "projectDisplayName": "17494-CBK-SS-DEV-VENUS",
+      "name": "situation-email-processor",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-email-processor@sha256:8a854dea995486a37557909b9f0ae093e741593a8df09649ada596cca3d40814",
+      "imageVersion": "(L)11.0.0.0.219-SNAPSHOT"
+    }
+  },
+  "cbk-zipkin-server": {
+    "13395": {
+      "cluster": "gl-np",
+      "namespace": "13395",
+      "projectDisplayName": "13395-CBANKER-COMMON-VENUS",
+      "name": "cbk-zipkin-server",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/13395/cbk-zipkin-server@sha256:cf5c3a2cb7af282ece68d18dc0f59126f095c52f3d6afdf903f2e81c7d4d5d97",
+      "imageVersion": "(L)1.0.0.0.8-SNAPSHOT"
+    },
+    "13939": {
+      "cluster": "gl-np2",
+      "namespace": "13939",
+      "projectDisplayName": "13939-CBK-COMMON-DEV-VENUS",
+      "name": "cbk-zipkin-server",
+      "replicas": 0,
+      "image": "172.17.99.126:5000/13939/cbk-zipkin-server@sha256:27e80da09f7d34a549a136657d24d1e7c51b86a375e59752c8ea8d7f4601f53c",
+      "imageVersion": "(L)1.0.1-SNAPSHOT"
+    },
+    "14484": {
+      "cluster": "gl-np",
+      "namespace": "14484",
+      "projectDisplayName": "14484-CBK-CC-SIT-JUPITER",
+      "name": "cbk-zipkin-server",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-zipkin-server:9.2.0.0.24-SNAPSHOT",
+      "imageVersion": "(G)9.2.0.0.24-SNAPSHOT!13941"
+    },
+    "14786": {
+      "cluster": "gl-np",
+      "namespace": "14786",
+      "projectDisplayName": "14786-CBK-CC-UAT-POSSUM",
+      "name": "cbk-zipkin-server",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    },
+    "14526": {
+      "cluster": "gl-np2",
+      "namespace": "14526",
+      "projectDisplayName": "14526-CBK-CC-UAT-PANDA",
+      "name": "cbk-zipkin-server",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-zipkin-server:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!13941"
+    },
+    "13941": {
+      "cluster": "gl-np",
+      "namespace": "13941",
+      "projectDisplayName": "13941-CBK-COMMON-SIT-SATURN",
+      "name": "cbk-zipkin-server",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/13941/cbk-zipkin-server:10.7.0.0.5-SNAPSHOT",
+      "imageVersion": "(G)10.7.0.0.5-SNAPSHOT"
+    }
+  },
+  "test-app": {
+    "13836": {
+      "cluster": "gl-np",
+      "namespace": "13836",
+      "projectDisplayName": "13836-CBK-DEVOPS-SANDBOX",
+      "name": "test-app",
+      "replicas": 0,
+      "image": "test-app",
+      "imageVersion": "test-app"
+    }
+  },
+  "situation-data-provider": {
+    "17653": {
+      "cluster": "gl-np2",
+      "namespace": "17653",
+      "projectDisplayName": "17653-CBK-SS-SIT-SATURN",
+      "name": "situation-data-provider",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-provider:11.0.0.0.317-SNAPSHOT",
+      "imageVersion": "(G)11.0.0.0.317-SNAPSHOT!17494"
+    },
+    "17654": {
+      "cluster": "gl-np2",
+      "namespace": "17654",
+      "projectDisplayName": "17654-CBK-SS-UAT-PANDA",
+      "name": "situation-data-provider",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-provider:11.0.0.0.37",
+      "imageVersion": "(G)11.0.0.0.37!17494"
+    },
+    "17494": {
+      "cluster": "gl-np2",
+      "namespace": "17494",
+      "projectDisplayName": "17494-CBK-SS-DEV-VENUS",
+      "name": "situation-data-provider",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-data-provider@sha256:caa5a0daef04b8c74164bce9e84535169ca9aac9e86cbc1cfd32eb0e0a81d416",
+      "imageVersion": "(L)11.0.0.0.318-SNAPSHOT"
+    }
+  },
+  "pocswaggereditor": {
+    "11578": {
+      "cluster": "gl-np",
+      "namespace": "11578",
+      "projectDisplayName": "11578-CBANKER-SANDBOX",
+      "name": "pocswaggereditor",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/11578/pocswaggereditor@sha256:fcc2cf56de9e74ccfd92cf3f9bc168d224f68ea71f0aca7002a662fecf8cf4d4",
+      "imageVersion": "172.17.150.40:5000/11578/pocswaggereditor@sha256:fcc2cf56de9e74ccfd92cf3f9bc168d224f68ea71f0aca7002a662fecf8cf4d4"
+    }
+  },
+  "restricted-list": {
+    "14607": {
+      "cluster": "gl-np",
+      "namespace": "14607",
+      "projectDisplayName": "14607-CBK-RL-SIT-SATURN",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14606/restricted-list:10.2.0.0.203-SNAPSHOT",
+      "imageVersion": "(G)10.2.0.0.203-SNAPSHOT!14606"
+    },
+    "14608": {
+      "cluster": "gl-np2",
+      "namespace": "14608",
+      "projectDisplayName": "14608-CBK-RL-UAT-PANDA",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14606/restricted-list:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1!14606"
+    },
+    "14606": {
+      "cluster": "gl-np2",
+      "namespace": "14606",
+      "projectDisplayName": "14606-CBK-RL-DEV-VENUS",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14606/restricted-list:9.6.0.0.1",
+      "imageVersion": "(G)9.6.0.0.1"
+    },
+    "14791": {
+      "cluster": "gl-np",
+      "namespace": "14791",
+      "projectDisplayName": "14791-CBK-RL-SIT-JUPITER",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/14606/restricted-list:9.4.0.0.161-SNAPSHOT",
+      "imageVersion": "(G)9.4.0.0.161-SNAPSHOT!14606"
+    },
+    "1187": {
+      "cluster": "gl-np",
+      "namespace": "1187",
+      "projectDisplayName": "1187-CBANKER-DEV",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "172.17.150.40:5000/1187/restricted-list@sha256:5a04814cc1626cea370c288ccb543b7f20430aeca0916a340cf617afdbbeb12a",
+      "imageVersion": "(L)0.0.1.19254.49-SNAPSHOT"
+    },
+    "14789": {
+      "cluster": "gl-np",
+      "namespace": "14789",
+      "projectDisplayName": "14789-CBK-RL-UAT-POSSUM",
+      "name": "restricted-list",
+      "replicas": 0,
+      "image": "barclays-registry.barcapint.com:5000/13836/cbk-apaas-sample:latest",
+      "imageVersion": "(G)13836/cbk-apaas-sample:latest"
+    }
+  },
+  "situation-data-updater": {
+    "17653": {
+      "cluster": "gl-np2",
+      "namespace": "17653",
+      "projectDisplayName": "17653-CBK-SS-SIT-SATURN",
+      "name": "situation-data-updater",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-updater:11.0.0.0.220-SNAPSHOT",
+      "imageVersion": "(G)11.0.0.0.220-SNAPSHOT!17494"
+    },
+    "17654": {
+      "cluster": "gl-np2",
+      "namespace": "17654",
+      "projectDisplayName": "17654-CBK-SS-UAT-PANDA",
+      "name": "situation-data-updater",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "barclays-registry.barcapint.com:5000/17494/situation-data-updater:11.0.0.0.35",
+      "imageVersion": "(G)11.0.0.0.35!17494"
+    },
+    "17494": {
+      "cluster": "gl-np2",
+      "namespace": "17494",
+      "projectDisplayName": "17494-CBK-SS-DEV-VENUS",
+      "name": "situation-data-updater",
+      "replicas": 1,
+      "readyReplicas": 1,
+      "image": "172.17.99.126:5000/17494/situation-data-updater@sha256:2b5942bec5c38ff67777a5825285fcd2f48c584a1493bf7e65de45c824835af6",
+      "imageVersion": "(L)11.0.0.0.221-SNAPSHOT"
+    }
+  }
+}
